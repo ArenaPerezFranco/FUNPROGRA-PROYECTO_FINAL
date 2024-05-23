@@ -121,8 +121,137 @@ public class JavaApplication21 {
            //-------------------------------------------------------------------
           //FASE 2: SENTINELA
             case 2:
-                System.out.println("Bienvenido a la fase 2: El escudo del amanecer " + nombre);
+        System.out.println("Bienvenido a la fase 2: El escudo del amanecer " + nombre);
+        System.out.println("Hola ¿eres nuevo en este pueblo verdad?,yo soy Elena mi labor en este pueblo es manternelo seguro,");
+        System.out.println("Elena: ¿Confías en tus corazonadas o prefieres basarte en datos y hechos correctos al tomar decisiones?  ya que al tomar la decision de estar en mi torre fue gracias a un presentimiento de que aydaria mas al pueblo. Parece serque este es un tema que le entesuiasma a la chica, ya que cada que llegaba gente el egustaba hablar sobre todo aspecto de la torre y lo que le hacia sentir. ¿Que sentiras?");
+        
+        System.out.println("1.Confío principalmente en mis corazonadas. + ");{
+        System.out.println("2.Prefiero basarme en datos y hechos concretos al tomar decisiones. + ");
+        System.out.println("3.Me gusta equilibrar ambas cosas, considerando tanto mis corazonadas como los datos disponibles. +");
+        System.out.println("4.Depende de la situación específica y de la importancia de la decisión. + +");
+    }
+        op1 = captu.nextInt();
+            if (op1 == 1) {
+            System.out.println("Elena: Entonces concordamos en una cosa.");   
+            if(op1 == 2)
+                System.out.println("Elena:Me parece bastante bien hay personas a las que las estadísticas les gustan mas para no dar ningun paso en falso");
+            else if (op1 == 3)
+                System.out.println("Elena: Tienes razon, no todo es dejarse llevar por una corazonada, aveces si es necesario revisar los datos del problema");
+            else if (op1 == 4)
+                System.out.println("Elena: Es una respuesta algo vaga... Pero igual tiene sentido que no siempre te dejes guiar por el corazon");
+            }
+            System.out.println("Elena: Lamento entrar tan apresurado a la converssacion, regularmente no hay visitas en este lugar. Es un poco solitario pero aun asi es interesante lo que uno puede descubrir de los nuevos. X, es un nombre interesante. Al decir esto te da mas curiosidad de los misterios que pueda ocultar");
             
+            System.out.println("1.- ¿Como sabes mi nombre?");
+            System.out.println("2.- ¿Que sabes de este lugar?");
+            
+            op1 = captu.nextInt();
+            if (op1 == 1) {
+                else if(op1 == 2)
+                    System.out.println("");
+            }
+            System.out.println("Elena: Uno se entera de muchas cosas cuando esta solo.. Dice con una leve sonrisa mientras te invitaba con una seña a acercarte a un sillón donde se podía observar la vista del mar, notándose el atardecer de ese lugar. Elena: ¿Porqué estas aqui?¿Acaso es por un proyecto? Casi siempre la gente viene por es");
+            
+            System.out.println("Asi es, vengo por un proyecto que tengo con Axel");
+            System.out.println("No, solo vine por curiosidad");
+            
+            op1 = captu,nextInt();{
+            System.out.println("Elena: Ahora me surgió la curiosidad¿Cómo sueles planificar tus actividades o proyectos? ¿Sigues una estructura detallada o confías en la improvisación?");
+            
+            if (op1 == 1)
+                System.out.println("A) Sigo una estructura detallada al planificar mis actividades o proyectos.");
+            else if (op1 == 2)
+                System.out.println("B) Confío en la improvisación y adapto mi enfoque según surjan las    circunstancias.");
+            else if (op1 == 3)
+                System.out.println("C) Me gusta tener un plan general pero estar abierto/a a ajustes según sea   necesario.");
+            else if (op1 == 4)
+                System.out.println("D) Combino ambos enfoques: tengo un plan inicial pero estoy dispuesto/a a  improvisar según se requiera.");
+    } 
+            System.out.println("¿?");
+            
+            System.out.println("1.- Me llama más la atención los detalles específicos.");{
+            System.out.println("2.- Le interesan más las ideas y posibilidades futuras."); 
+            System.out.println("3.- Disfruto de ambos, pero depende del contexto."); 
+            System.out.println("4.- Encuentro un equilibrio entre ambos aspectos.");
+    }
+    op1 = captu.nexInt();{
+    if (op1 == 1)
+            System.out.println("Elena: Opino lo mismo, soy una persona bastante organizada, no me gusta dejar ningun detalle de lado.");
+    else if(op1 == 2)       
+        System.out.println("Elena: Esa tambien es una opción, las personas verrsatiles les  tengo una gran admiración.");
+    else if(op1 == 3)
+        System.out.println("Elena: ¡Es bueno ser así no cerrarte a los cambios y adaptarte a ellos!");
+    else if(op1 == 4)
+        System.out.println("Elena: siempre hay que tener un orden, pero nunca se sabe que puede pasar ¿verdad?");
+    }
+     
+        System.out.println("¿Qué es lo que usualmente haces en esta torre?.");{
+        System.out.println("Preguntaste con algo de curiosidad, acercándote hacia la chica. Quien seguía viendo el paisaje de siempre.");
+        System.out.println("Elena: Ven acompáñame a vigilar un rato, ves el rio que divide la aldea de los huertos, siempre hemos intentado saber como cruzar mejor los alimentos tal ves un puente mas grande nos sirva ¿no? o ¿Eres de esas personas que no se enfoca mucho en las ideas y posibilidades futuras?");
+    }
+        op1 = captu.nexInt();{
+    
+    if (op1 == 1){
+            System.out.println("1. Me llama más la atención los detalles específicos.");
+    else if(op1 == 2)       
+        System.out.println("2. Te interesan más las ideas y posibilidades futuras.");
+    else if(op1 == 3)
+        System.out.println("3. Disfruto de ambos, pero depende del contexto.");
+    }
+        
+        System.out.println(" Me llama mas la atención los detalles específicos.  ");{
+        System.out.println(" Opino lo mismo que tu, me interesa las ideas y posibilidades del futuro.");
+        System.out.println(" Disfruto de ambos, siento que depende mucho del contexto.");
+    }
+        
+        System.out.println("Elena: Lo entiendo, todos tienen diferentes formas de pensar. Dice algo pensativa al ver de nuevo donde se localizaba aquel rio. Ambos se encontraron en un silencio por momentos, ocasionando que esta solo te sonriera. Elena: Lo lamento, no suelo tener visitas tan seguido... Estoy mas cómoda con el silencio.");{
+    }
+           
+        if (op1 == 1){
+        System.out.println("1. Me gusta el silencio también. + 3 Introvertido y +5 Relacion");
+        else if(op1 == 2)       
+        System.out.println("2. No me gusta estar en silencio. + 3 Extrovertido ");
+    }
+        System.out.println(" No te preocupes por eso, también soy una persona que le agrada el silencio.");{
+        System.out.println("No me gusta estar en silencio, pero no me molesta acompañarte si lo prefieres. Elena solo se rie por esto algo nerviosa, parece ser que fue sufiviente para poner la conversación mas comoda. +5 Relación");
+        }
+        
+        System.out.println("Aun así, Elena quería seguir una conversación, tal vez solo para tener un tiempo con alguien nuevo. Elena:... Entonces, ¿Qué tipo de conversación te llama mas la atención? como.. anécdotas y experiencias concretas o ideas abstractas y reflexiones profundas.");{
+            System.out.println("1. Anécdotas y experiencias concretas que ilustren puntos específicos.");//Aqui van las opciones, para que el usuario tenga la opciòn de elegir
+            System.out.println("2. Ideas abstractas y reflexiones profundas que generen discusión y reflexión");
+            System.out.println("3. Disfruto de ambos aspectos, dependiendo del tema y el contexto");
+        op1 = captu.nexInt();{
+          
+        }
+        
+        if (op1 == 1){
+        System.out.println("Me gusta hablar de anecdotas o experinecias de mi vida. Siento que asi puedo llegar a llevar una mejor conversación");
+        System.out.println("Elena solo asiente mientras ibas respondiendo su pregunta queriendo encontrar algun tipo de anecdota que tuviera ¿Por cual empezar?");{
+        System.out.println("Elena: Algun tema que te podria interesar seria la vez.. momento de suspenso, literal se quedo callada para poner ambiente");
+    
+        else if(op1 == 2)        
+        System.out.println("Me gusta sacar de conversación de cualquier tema que te haga profundizar al punto de hacerte dudar de hasta tu propia existancia");
+        System.out.println("Elena: ¿Algo profundo? ó a repetir para si misma para encontrar algun tema similar");
+        System.out.println("Elena: ¿Crees en los fantasmas? Pregunta con curiosidad, volviendo sus grandes ojos hacia ti");
+        
+        if (op1 == 1)
+        System.out.println("1.No -5 Relación");
+        System.out.println("No lo se me parece algo bastante dificil de creer.");
+        
+        else if (op1 == 1)
+        System.out.println("2.Si +5 Relación");
+        System.out.println("Es algo desconocido pero curiosamente entretenido de pensar que pueda ser posible. ");
+        
+        else if(op1 == 3)
+        System.out.println("Depende, realmente solo voy siguiendo la conversación como va saliendo");
+        System.out.println("Elena: Mhh.. bueno tengo unas cuantas historias que podrían interesarte.");
+        }
+        
+        
+        System.out.println("Elambiente ahora se torno mas oscuro, cuando Elena empezo a contar su historia. Elena: Este pueblo guarda varios secretos, entre ellos se dice que en la misma biblioteca del pueblo, fue construida al mismo tiempo en que se fundo. Con eso, se puede llegar que tienen registros de cada aspecto de aquí.. de Mirrortown.");
+        
+}
+}                 
                 faseActual = 3;    
                 break;
                 
