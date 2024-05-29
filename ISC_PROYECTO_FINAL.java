@@ -492,7 +492,7 @@ boolean opV = true;
         
         
         System.out.println("El ambiente ahora se torno mas oscuro, cuando Elena empezo a contar su historia. Elena: Este pueblo guarda varios secretos, entre ellos se dice que en la misma biblioteca del pueblo, fue construida al mismo tiempo en que se fundo. Con eso, se puede llegar que tienen registros de cada aspecto de aquí.. de Mirrortown.");
-        
+        //PARTE QUE FALTA
 }
                     
 public static void fase3(Scanner captu, String nombre, int[] puntos, int Irving) {
