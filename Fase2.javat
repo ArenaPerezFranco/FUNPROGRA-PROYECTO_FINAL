@@ -1,0 +1,119 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package fase.pkg2;
+
+/**
+ *
+ * @author rubra
+ */
+public class Fase2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        // FASE 2
+        int op1;
+        boolean opV = true;
+        
+        System.out.println("-----------------------------------");
+        System.out.println("1.- Quedarse callada");
+        System.out.println("2.- Eso que tiene de misterioso");
+        System.out.println("----------------------------------");
+        System.out.println("");
+        
+        while(true){
+        op1 = captu.nextInt();    
+        
+        if (op1 == 1){
+        
+                System.out.println("Decidiste guardar silencio, escuchando atentamete a cada aspecto que te decia Elena. ");
+                System.out.println("Quien apreciaba que le prestaras tanta atención en su historia. ");
+                break;
+            }
+            else if (op1 == 2){
+                System.out.println("Elena no le pareció agradarle tu comentario,");
+                System.out.println("viendo esto tu solo hiciste un ademan con la mano para invitarla a continuar con la historia.");
+                System.out.println("Aun así le pareció poco amable tu actitud.");  
+                Elena -= 5;
+                    break;
+        }else{
+                System.out.println("Opciòn invalidad.");
+                }
+        }
+    
+        System.out.println("Elena: Bueno, al escuchar ese rumor, decidí probarlo por mi misma. \n" +
+"Dice con una determinación en sus ojos, incluso algo emocionada al recordar todo este acontecimiento.");
+        System.out.println("Elena: Cuando llegue, no pude evitar sentirme algo ansiosa.\n" +
+"La chica solo volvio a sonreir algo timida, mientras volvia su mirada al paisaje");
+        System.out.println("Elena: Tiene sentido ¿No? o ¿Como te sentirias al enfretarte a situaciones nuevas o a lo desconocido?");
+        
+        System.out.println("");
+        
+        System.out.println("-------------------------------------------------");
+        System.out.println("1.Emocionado/a y motivado/a por el desafío.");
+        System.out.println("2.Ansioso/a y nervioso/a por la incertidumbre.");
+        System.out.println("3.Curioso/a y dispuesto/a a aprender.");
+        System.out.println("-------------------------------------------------");
+        
+         }
+         switch (op1){
+             case 1:
+                 System.out.println("Elena: ¿Emocionado/a? Creo que entonces eres un poco mas aventurera/o que yo.");
+             case 2:
+                 System.out.println("Elena: Se siente bien no ser la única.\n" +
+"Dice en un suspiro, aun manteniendo aquella sonrisa de antes, incluso sintiéndose mas cómoda por tu respuesta.");
+             case 3:
+                 System.out.println("Elena: Eso parece una respuesta de todo un gran reportero. Siempre es emocionante aprender algo nuevo.");
+         }
+                 
+     System.out.println(nombre + ":Pero entonces ¿Qué paso?¿Encontraste algo?")
+      System.out.println("Elena niega con la cabeza algo desanimada, aun algo triste por no poder resolver aquel misterio.");
+     System.out.println("Elena: No realmente no pude encontrarlo, y lo peor es que no pude salir de la biblioteca hasta la mañana siguiente. Fue hasta que llego la noche que apareció esa voz... La verdad me dio mucho miedo, no sabia que hacer asi que solo la segui, se detuvo hasta lo que eran unas estatuas.");
+}
+switch (op1){
+case 1:
+System.out.println(nombre + "¿Que clase de estatuas?")
+System.out.println("Elena: Estatuas de los mismo fundadores de MirrorTown. Creo que estan bastantes abandonados, se encontraban algo descuidados");
+System.out.println("Unas estatuas abandonadas, podría ser  por algún tipo de descuido por parte de los dueños, o algo mucho mas interesante que ello");
+break:
+case 2:
+System.out.println(nombre + "¿Una voz?"); 
+System.out.println("Elena: Si era incluso como escuchar tu propio subconsciente. Se que suena algo tonto, pero realmente era como escucharme a mi misma");
+System.out.println("Esto fue un dato algo peculiar, ya que si parecía toda una historia de fantasmas.");
+break:
+    }else{
+System.out.println("opcion no valida");
+}
+System.out.println("Elena: Decidí empezar a acercarme a aquellas estatuas, donde se encontraba esa voz.");
+System.out.println("Lo único que encontré cerca de ahí, fueron libros de la historia de siempre.");
+System.out.println("Por un momento la chica se quedo pensando, como si estuviera recordando aquel día. Parece ser que quería darte todo detalle posible.");
+System.out.println("Elena: No me sentí lista de hacerlo, no lo se, fue algo que se sentía muy intimo.");
+System.out.println("Elena: Suelo resolver todo mediante una solución creativa o como me va guiando mi imaginación. ");
+System.out.println("Pero mi mente estaba en blanco. ¿Sabes a lo que me refiero? o ¿Eres mas del estilo pragmático y practico?");
+   
+//opciones 
+switch(op1){
+case 1:
+System.out.println("1.Pragmático y práctico, enfocado en encontrar soluciones directas y  efectivas.");
+break:
+case 2:
+System.out.println("2.Imaginativo y creativo, buscando enfoques novedosos y fuera de lo común.");
+break:
+case 3:
+System.out.println("3.Una combinación de ambos, dependiendo de la naturaleza del problema.");
+break:
+System.out.println("4.Flexible, adaptándome al problema y empleando diferentes enfoques según  sea necesario.");
+break:
+}
+
+System.out.println("Elena: Entonces tal vez puedas conseguir abrir aquel lugar");
+System.out.println("Sonara cursi pero solo sigue lo que dicta tu alma interior.");
+System.out.println("Con estas palabras, se quedan en silencio. ");
+System.out.println("No era un silencio incomodo, incluso podías sentir como esto era un lugar cómodo y incluso hogareño");
+System.out.println("Finalmente el sonido del agua chocando contra las rocas del lugar te ayudo a descansar, cayendo dormido en minutos,");
+System.out.println("y con eso el fin de tu interacción con Elena, la vigilante de MirrorTown.\n" +
+"FIN");
