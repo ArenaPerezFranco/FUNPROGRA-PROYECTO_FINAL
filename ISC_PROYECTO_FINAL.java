@@ -351,7 +351,239 @@ boolean opV; //OPCIÓN VALIDA
                 System.out.println("2.- Decirle que sí y hasta darle un espacio "); //+3 Extrovertido y Rela +5
                 System.out.println("3.- Decirle que no, quieres estar solo/a"); //+3 Introvertido --> Rela: -5
                 System.out.println("----------------------------------------------------");
-                op1 = captu.nextInt();
+                
+                    do{
+            op1 = captu.nextInt();
+            
+            switch (op1){
+                case 1 :
+                    System.out.println("Después de que se hayan sentado en aquel árbol, se encuentran en silencio por unos minutos, ");
+                    System.out.println("pero finalmente te comienza la plática, Violett aun no siente que pueda empezar una buena platica,");
+                    System.out.println("por el hecho de ser alguien nuevo, pero también tenia curiosidad por lo que podrías brindarle");
+                    break;
+                case 2:
+                    System.out.println("NO SE COMO HACERLE");
+                    break;
+                case 3:
+                    System.out.println("Violett al escuchar esto solo ríe incomoda y permanece callada por esta respuesta pero igual se sienta enseguida tuyo, al no querer dejarte solo/a.");
+                    break;
+                default:
+                    System.out.println("Opción no válida,repite bucle  ");
+            }
+            break;
+        }
+        while (!opV);
+        
+        System.out.println("Tarda unos segundos en poder dirigirte la palabra.");
+        System.out.println("Tomando esto como una oportunidad para socializar contigo.");
+        System.out.println("Violett: \" El grupo allá parece estar bastante animado, pero a veces prefiero un poco de paz y tranquilidad.");
+        System.out.println("¿Tú también prefieres los momentos más tranquilos?");
+        
+        System.out.println("1.- Momento mas tranquilo");
+        System.out.println("2.- prefiero estar en el centro de acción");
+        
+        while (true){
+            op1 = captu.nextInt();
+            
+            if (op1 ==1){
+                System.out.println("Violett: Lo entiendo, algunas veces uno solo quiere tener un momento de tranquilidad, ");
+                System.out.println("o solo disfruta de un momento conviviendo con si mismo. ");
+                System.out.println("En lo personal a mi me encanta pasar tiempo con la gente, me hace sentir querida.");
+                break;
+            }
+            else if (op1 == 2){
+                System.out.println("Violett: ¡Ya veo…! Tal vez ahora solo prefieres tener un tiempo conviviendo contigo mismo/a, Entiendo, ");
+                System.out.println("¡eres una persona de acción entonces! ¡Me gusta eso! Aunque a veces, tener un poco de tiempo a solas también es importante,");
+                System.out.println("¿no crees? ¿Qué es lo que más te gusta hacer cuando estás en el centro de la acción?");
+                break;
+            } else{
+                System.out.println("Opción no válida");
+            }
+        }
+        
+        System.out.println("Es interesante ver cómo Violett reconoce y acepta tus preferencias, incluso si difieren un poco de las suyas.");
+        System.out.println("Su apertura y comprensión contribuyen a fortalecer la conexión entre ustedes.");
+        
+        System.out.println("La conversación fluye de manera natural, cada uno compartiendo sus intereses y pasiones, consolidando aún más el vínculo entre ustedes. ");
+        System.out.println("La tarde transcurre en un agradable intercambio de historias y perspectivas, creando recuerdos que ambos atesorarán");
+        
+        System.out.println("Al final del día, mientras disfrutan de una puesta de sol, Violett te pregunta:");
+        System.out.println("¿Cómo te sientes después de pasar tiempo interactuando socialmente con amigos o conocidos?");
+        
+        System.out.println("1.- Energizado/a y rejuvenecido/a.");
+        System.out.println("2.- Normal, sin cambios significativos.");
+        System.out.println("3.- Un poco cansado/a pero contento/a.");
+        System.out.println("4.- Agotado/a y abrumado/a.");
+        
+        do{
+            op1 = captu.nextInt();
+            
+            switch (op1){
+                case 1 :
+                    System.out.println("");
+                    break;
+                case 2:
+                    System.out.println("");
+                    break;
+                case 3:
+                    System.out.println("");
+                    break;
+                case 4:
+                    System.out.println("");
+                    break;
+                default:
+                    System.out.println("");
+            }
+            break;
+        }
+        while (!opV);
+        
+        System.out.println("Mientras la tarde se convierte en noche y las estrellas comienzan a aparecer,");
+        System.out.println("Violett, con una sonrisa curiosa, te hace otra pregunta para conocerte mejor:");
+        System.out.println("¿Disfrutas más de actividades en solitario o en grupos pequeños?");
+        
+        System.out.println("1.- Disfruto más de actividades en solitario.");
+        System.out.println("2.- Prefiero actividades en grupos pequeños.");
+        System.out.println("3.- Disfruto tanto de actividades en solitario como en grupos pequeños.");
+        System.out.println("4.- Depende del tipo de actividad y mi estado de ánimo en ese momento.");
+        
+        do{
+            op1 = captu.nextInt();
+            
+            switch (op1){
+                case 1 :
+                    System.out.println("");
+                    break;
+                case 2:
+                    System.out.println("");
+                    break;
+                case 3:
+                    System.out.println("");
+                    break;
+                case 4:
+                    System.out.println("");
+                    break;
+                default:
+                    System.out.println("");
+            }
+            break;
+        }
+        while (!opV);
+        
+        System.out.println("Violett asiente, comprendiendo tus palabras. \"Eso tiene mucho sentido.");
+        System.out.println("Creo que es importante tener ese equilibrio y saber lo que uno necesita en cada momento.\"");
+        
+        System.out.println("La conversación fluye con naturalidad, y mientras el cielo se oscurece y las estrellas brillan más intensamente,");
+        System.out.println(" Violett te hace otra pregunta para conocerte mejor.");
+        System.out.println("\"¿Cuál es tu reacción ante eventos sociales muy concurridos y bulliciosos?\"");
+        
+        System.out.println("1.- Me siento emocionado/a y energizado/a por la atmósfera animada.");
+        System.out.println("2.- Me siento abrumado/a y prefiero encontrar un lugar más tranquilo.");
+        System.out.println("3.- Me adapto fácilmente y disfruto de la diversidad de experiencias.");
+        System.out.println("4.- Depende de mi nivel de comodidad y familiaridad con el entorno.");
+        
+        do{
+            op1 = captu.nextInt();
+            
+            switch (op1){
+                case 1 :
+                    System.out.println("");
+                    break;
+                case 2:
+                    System.out.println("");
+                    break;
+                case 3:
+                    System.out.println("");
+                    break;
+                case 4:
+                    System.out.println("");
+                    break;
+                default:
+                    System.out.println("");
+            }
+            break;
+        }
+        while (!opV);
+        
+        System.out.println("La conversación fluye con naturalidad, y mientras el cielo se oscurece y las estrellas brillan más intensamente");
+        System.out.println("Violett te hace otra pregunta para conocerte mejor.");
+        System.out.println("\"¿Cómo recargas tus energías después de un día ocupado?\"");
+        
+        System.out.println("1.- Pasando tiempo a solas para relajarme y recargar.");
+        System.out.println("2.- Socializando con amigos o seres queridos.");
+        System.out.println("3.- Haciendo ejercicio físico o practicando actividades al aire libre.");
+        System.out.println("4.- Disfrutando de pasatiempos o actividades creativas que me gusten.");
+        
+         do{
+            op1 = captu.nextInt();
+            
+            switch (op1){
+                case 1 :
+                    System.out.println("");
+                    break;
+                case 2:
+                    System.out.println("");
+                    break;
+                case 3:
+                    System.out.println("");
+                    break;
+                case 4:
+                    System.out.println("");
+                    break;
+                default:
+                    System.out.println("");
+            }
+            break;
+        }
+        while (!opV);
+         
+         System.out.println("Violett sonríe de nuevo. \"Entiendo perfectamente.");
+         System.out.println("A veces, ese tiempo a solas es justo lo que necesitamos para recuperar nuestro equilibrio.\"");
+         System.out.println("Pasáis el resto de la noche charlando bajo las estrellas, compartiendo historias y risas. ");
+         System.out.println("La conexión entre vosotros se siente más fuerte y más profunda. ");
+         System.out.println("La honestidad y la apertura de la conversación os han acercado aún más.");
+         
+         System.out.println("La conversación fluye con naturalidad, y mientras el cielo se oscurece y las estrellas brillan más intensamente, ");
+         System.out.println("Violett te hace otra pregunta para conocerte mejor.");
+         System.out.println("\"¿Cómo te sientes después de una semana intensa de trabajo o estudio?\"");
+         
+         System.out.println("Te tomas otro momento para pensar enates de responder.");
+         
+         System.out.println("1.- Necesito pasar tiempo a solas para recargar mis energías.");
+         System.out.println("2.- Me gusta salir y socializar para desconectar y relajarme.");
+         
+         do{
+            op1 = captu.nextInt();
+            
+            switch (op1){
+                case 1 :
+                    System.out.println("");
+                    break;
+                case 2:
+                    System.out.println("");
+                    break;
+                case 3:
+                    System.out.println("");
+                    break;
+                default:
+                    System.out.println("");
+            }
+            break;
+        }
+        while (!opV);
+         
+        System.out.println("Pasáis el resto de la noche charlando bajo las estrellas, compartiendo historias y risas. ");
+        System.out.println("La conexión entre vosotros se siente más fuerte y más profunda.");
+        System.out.println("La honestidad y la apertura de la conversación os han acercado aún más.");        
+        
+        System.out.println("Cuando finalmente es hora de despedirse, ambos sentís que habéis creado un lazo especial.");
+        System.out.println("\"Gracias por este día,\" dices sinceramente. \"Ha sido increíble conocerte mejor.\"");
+        System.out.println("\"Gracias a ti,\" responde Violett con una sonrisa brillante. \"Espero que tengamos muchas más conversaciones como esta.\"");
+        
+        System.out.println("Camináis juntos hasta el final del sendero, donde vuestros caminos se separan por la noche. ");
+        System.out.println("Te alejas con una sensación de satisfacción y paz, sabiendo que has encontrado una conexión significativa y auténtica. ");
+        System.out.println("Mientras miras las estrellas una última vez antes de irte a casa, sientes que el día ha sido verdaderamente especial,");
+        System.out.println("lleno de momentos que atesorarás para siempre FIN.");
              break;
              
              default:
