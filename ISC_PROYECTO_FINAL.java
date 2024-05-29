@@ -233,8 +233,103 @@ boolean opV; //OPCIÓN VALIDA
                     break;
                     }
                 }while(!opV); 
-                
+                System.out.println("La  conversación sigue, y te das cuenta de cuánto disfrutas compartir tus intereses con Violett.");
+        System.out.println("La conexión entre vosotros se profundiza con cada intercambio, creando una base sólida para una amistad duradera.");
+        
+        System.out.println("Violett: Es increible encontrar a alguien que comparte esa pasión por aprender.");
+        System.out.println("Me encantaría seguir conversando sobre esto y explorar más temas juntos. ¿Qué dices?");
+        
+        System.out.println("Asientes con entusiasmo. \"¡Claro que sí! Sería genial seguir compartiendo ideas y aprendiendo juntos.");
+        System.out.println("Estoy seguro de que hay muchas más conversaciones fascinantes por venir.\"");
+        
+        System.out.println("Mientras camináis juntos, Violett te hace otra pregunta que demuestra su interés por conocerte más a fondo.");
+        System.out.println("Violett: ¿Cómo te sientes acerca de hablar en público? Te tomas un momento para considerar tu respuesta. ");
+        
+        System.out.println("1.- Me emociona y disfruto estar en el centro de atención");
+        System.out.println("2.- Prefiero evitarlo y me siento mas comodo/a en roles de apoyo");
+        System.out.println("3.- Depende del tema y del púbico.");
+        
+        do {
+            op1 = captu.nextInt();
+            
+            switch (op1){
+                case 1:
+                    System.out.println("Siempre he encontrado emocionante poder compartir mis ideas con el publico.");
+                     break;
+                case 2:
+                    System.out.println("La idea de hablar en público siempre me ha puesto un poco nervioso/a");
+                    break;
+                case 3:
+                    System.out.println("Si es algo que me apasiona, puedo hacerlo sin problemas,");
+                    System.out.println("pero en otras situaciones prefiero no ser el centro de atencion.");
+                    break;
+                default:
+                    System.out.println("Opción no válida. Por favor, selecciona una opción del 1 al 4");
+                  opV = false;// Opción no valida, repite bucle
+            }     
+            break;
+        }
+        while(!opV);
+        
+        System.out.println("Violett asiente comprensivamente. \"Eso tiene mucho sentido.");
+        System.out.println("Creo que todos tenemos esos momentos en los que nos sentimos más cómodos hablando delante de otros, ");
+        System.out.println("especialmente cuando se trata de algo que realmente nos importa.\"");
+        System.out.println("La noche avanza y continuáis conversando bajo el cielo estrellado. ");
+        System.out.println("La calidez y la profundidad de vuestra charla hacen que el tiempo pase volando.");
+        
+        System.out.println("Camináis juntos por el sendero iluminado por las estrellas, ");
+        System.out.println("sintiendo que este encuentro ha sido el comienzo de algo especial. ");
+        System.out.println(" Mientras miras el cielo una última vez antes de irte a casa, ");
+        System.out.println("sabes que esta noche ha sido verdaderamente memorable,");
+        System.out.println("Llena de momentos que atesorarás para siempre.");
+        
+        System.out.println("Justo cuando creías que la noche estaba llegando a su fin,");
+        System.out.println("Violett se detiene de repente y te mira con una chispa de curiosidad en los ojos.");
+        System.out.println("Violett: \"¿Cómo te sientes al conocer a nuevas personas?\"");
+        
+        System.out.println("Te sorprende la pregunta, pero te tomas un momento para considerar tu respuesta.");
+        
+        System.out.println("1.- Me siento emocionado/a y disfruto la oportunidad de hacer nuevos amigos.");
+        System.out.println("2.- Me siento un poco tímido/a y prefiero conocer a la gente lentamente.");
+        System.out.println("3.- Depende del ambiente y de la situación.");
+        
+        do {
+            op1 = captu.nextInt();
+            
+            switch (op1){
+                case 1:
                     System.out.println("");
+                    break;
+                case 2:
+                    System.out.println("");
+                    break;
+                case 3:
+                    System.out.println("");
+                    break;
+                 default:
+                    System.out.println("Opción no válida. Por favor, selecciona una opción del 1 al 4");
+                  opV = false;// Opción no valida, repite bucle
+            }
+            break;
+        }
+        while (!opV);
+        
+        System.out.println("Justo cuando creías que la noche estaba llegando a su fin, ");
+        System.out.println("Violett se detiene de repente y te mira con una chispa de curiosidad en los ojos.");
+        
+        System.out.println("Violett: \"¿Qué prefieres hacer después de un día estresante?\"");
+        System.out.println("Te sorprende la pregunta, pero te tomas un momento para considerar tu respuesta");
+        
+        System.out.println("1.- Me siento emocionado/a y disfruto la oportunidad de hacer nuevos amigos.");
+        System.out.println("2.- Me siento un poco tímido/a y prefiero conocer a la gente lentamente.");
+        System.out.println("3.- Depende del ambiente y de la situación.");
+        
+        
+        // ULTIMO TEXTO DEL PRIMER CAMINO
+        System.out.println("Después de una tarde llena de conversaciones profundas y conexión genuina,");
+        System.out.println("Violett y tú caminan juntos bajo el cielo estrellado, compartiendo risas y reflexiones. ");
+        System.out.println("A medida que la noche avanza, ambos se dan cuenta de que han encontrado en el otro a alguien con quien pueden compartir sus pasiones y curiosidades.");
+        System.out.println("Este encuentro marca el comienzo de una amistad que promete muchas más conversaciones fascinantes y momentos memorables en el futuro");
                     
                     
                 
